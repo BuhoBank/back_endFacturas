@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.errors import ConnectionFailure
 
-MONGO_DETAILS = "mongodb://localhost:27017"
+MONGO_DETAILS = "mongodb+srv://serviciosBB:serviciosBB@cluster1.wgi9chn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
 
 client = AsyncIOMotorClient(MONGO_DETAILS)
 
